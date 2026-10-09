@@ -64,3 +64,77 @@ body {
     color: whitesmoke;
     text-align: center;
 }
+
+footer {
+    background-color: rgb(88, 101, 112);
+}
+
+#footer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#footer-info p {
+    padding-right: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#footer-info a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#footer-info a:hover {
+    text-decoration: underline solid 2px whitesmoke;
+}
+
+#abt-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#short-term {
+    color: whitesmoke;
+}
+
+#long-term {
+    color: whitesmoke;
+}
+
+#long-term h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px whitesmoke;
+}
+
+#short-term h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px whitesmoke;
+} 
+
+h2 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+#resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    padding-top: 50px;
+    
+}
+
+#resume a { 
+    text-decoration: none;
+    color: whitesmoke;
+}
